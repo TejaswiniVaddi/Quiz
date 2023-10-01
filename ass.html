@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyQuiz</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz Time!</h1>
+        <div id="question-container">
+            <p id="question-text"></p>
+        </div>
+        <div id="options-container">
+            <button class="option" id="option1"></button>
+            <button class="option" id="option2"></button>
+            <button class="option" id="option3"></button>
+            <button class="option" id="option4"></button>
+        </div>
+        <button id="submit-button">Submit</button>
+        <p id="result"></p>
+    </div>
+    <p id="timer">Time Left: <span id="time-remaining"></span></p>
+    
+
+    <div id="answers-container" style="display: none;">
+        <div id="answers-list"></div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://media.istockphoto.com/id/1454707439/photo/scattered-question-marks-blocks-and-copy-space.webp?b=1&s=170667a&w=0&k=20&c=yIq5os34TiPkP73f4D1KwRWC_r86-vYe0ikuaWHv_OU='); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #b8685f;
+    position: absolute; 
+    top: 10px; 
+    left: 10px;
+}
+
+.quiz-container {
+    max-width: 400px;
+    margin: 80px auto 0;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 40px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #9a402c;
+}
+
+.option {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #2980b9;
+}
+
+
+.option {
+    display: block;
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.option input[type="radio"] {
+    margin-right: 10px;
+}
+
+
+#submit-button {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#result {
+    margin-top: 10px;
+}
